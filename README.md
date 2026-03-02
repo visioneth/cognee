@@ -1,219 +1,136 @@
 <div align="center">
-  <a href="https://github.com/topoteretes/cognee">
-    <img src="https://raw.githubusercontent.com/topoteretes/cognee/refs/heads/dev/assets/cognee-logo-transparent.png" alt="Cognee Logo" height="60">
-  </a>
 
-  <br />
+# V33X Memory Engine
 
-  Cognee - Build AI memory with a Knowledge Engine that learns
+### Persistent AI Memory for Autonomous Trading Agents
 
-  <p align="center">
-  <a href="https://www.youtube.com/watch?v=1bezuvLwJmw&t=2s">Demo</a>
-  .
-  <a href="https://docs.cognee.ai/">Docs</a>
-  .
-  <a href="https://cognee.ai">Learn More</a>
-  ·
-  <a href="https://discord.gg/NQPKmU5CCg">Join Discord</a>
-  ·
-  <a href="https://www.reddit.com/r/AIMemory/">Join r/AIMemory</a>
-  .
-  <a href="https://github.com/topoteretes/cognee-community">Community Plugins & Add-ons</a>
-  </p>
+Built on [Cognee](https://github.com/topoteretes/cognee) | Customized by [@Vision33X](https://github.com/visioneth)
 
+[![GitHub stars](https://img.shields.io/github/stars/visioneth/cognee.svg?style=social&label=Star)](https://GitHub.com/visioneth/cognee/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/visioneth/cognee.svg?style=social&label=Fork)](https://GitHub.com/visioneth/cognee/network/)
 
-  [![GitHub forks](https://img.shields.io/github/forks/topoteretes/cognee.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/topoteretes/cognee/network/)
-  [![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/topoteretes/cognee/stargazers/)
-  [![GitHub commits](https://badgen.net/github/commits/topoteretes/cognee)](https://GitHub.com/topoteretes/cognee/commit/)
-  [![GitHub tag](https://badgen.net/github/tag/topoteretes/cognee)](https://github.com/topoteretes/cognee/tags/)
-  [![Downloads](https://static.pepy.tech/badge/cognee)](https://pepy.tech/project/cognee)
-  [![License](https://img.shields.io/github/license/topoteretes/cognee?colorA=00C586&colorB=000000)](https://github.com/topoteretes/cognee/blob/main/LICENSE)
-  [![Contributors](https://img.shields.io/github/contributors/topoteretes/cognee?colorA=00C586&colorB=000000)](https://github.com/topoteretes/cognee/graphs/contributors)
-  <a href="https://github.com/sponsors/topoteretes"><img src="https://img.shields.io/badge/Sponsor-❤️-ff69b4.svg" alt="Sponsor"></a>
-
-<p>
-  <a href="https://www.producthunt.com/posts/cognee?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-cognee" target="_blank" style="display:inline-block; margin-right:10px;">
-    <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=946346&theme=light&period=daily&t=1744472480704" alt="cognee - Memory&#0032;for&#0032;AI&#0032;Agents&#0032;&#0032;in&#0032;5&#0032;lines&#0032;of&#0032;code | Product Hunt" width="250" height="54" />
-  </a>
-
-  <a href="https://trendshift.io/repositories/13955" target="_blank" style="display:inline-block;">
-    <img src="https://trendshift.io/api/badge/repositories/13955" alt="topoteretes%2Fcognee | Trendshift" width="250" height="55" />
-  </a>
-</p>
-
-Use our knowledge engine to build personalized and dynamic memory for AI Agents.
-
-  <p align="center">
-  🌐 Available Languages
-  :
-  <!-- Keep these links. Translations will automatically update with the README. -->
-  <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=de">Deutsch</a> |
-  <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=es">Español</a> |
-  <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=fr">Français</a> |
-  <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=ja">日本語</a> |
-  <a href="README_ko.md">한국어</a> |
-  <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=pt">Português</a> |
-  <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=ru">Русский</a> |
-  <a href="https://www.readme-i18n.com/topoteretes/cognee?lang=zh">中文</a>
-  </p>
-
-
-<div style="text-align: center">
-  <img src="https://raw.githubusercontent.com/topoteretes/cognee/refs/heads/main/assets/cognee_benefits.png" alt="Why cognee?" width="50%" />
-</div>
 </div>
 
+---
 
+## What This Is
 
+An AI memory engine that **never forgets**. Feed it market data, trade history, whale movements, funding rates, news — it builds a living knowledge graph that connects everything and gets smarter over time.
 
-## About Cognee
+This isn't RAG. This is a **knowledge engine** that understands relationships between data points, tracks how they change, and gives you answers that basic vector search can't.
 
-Cognee is an open-source knowledge engine that transforms your raw data into persistent and dynamic AI memory for Agents. It combines vector search, graph databases and self-improvement to make your documents both searchable by meaning and connected by relationships as they change and evolve.
+## Why I Forked This
 
-Cognee offers default knowledge creation and search which we describe bellow. But with Cognee you can build your modular knowledge blocks!
+Every AI trading system I've built loses context when sessions end. Memory compaction destroys nuance. Important patterns vanish. This solves that problem permanently.
 
+**My Use Cases:**
+- Store every trade signal, execution, and outcome — learn what actually works
+- Track whale wallet movements across chains and connect them to price action
+- Build persistent memory for autonomous trading agents (DQN + Transformer)
+- Cross-reference funding rates, liquidation data, and kill zone timing
+- Never lose context between AI sessions again
 
-:star: _Help us reach more developers and grow the cognee community. Star this repo!_
-
-
-### Cognee Open Source:
-
-- Interconnects any type of data — including past conversations, files, images, and audio transcriptions
-- Replaces traditional database lookups with a unified knowledge engine built with graphs and vectors
-- Reduces developer effort and infrastructure cost while improving quality and precision
-- Provides Pythonic data pipelines for ingestion from 30+ data sources
-- Offers high customizability through user-defined tasks, modular pipelines, and built-in search endpoints
-
-
-## Basic Usage & Feature Guide
-
-To learn more, [check out this short, end-to-end Colab walkthrough](https://colab.research.google.com/drive/12Vi9zID-M3fpKpKiaqDBvkk98ElkRPWy?usp=sharing) of Cognee's core features.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12Vi9zID-M3fpKpKiaqDBvkk98ElkRPWy?usp=sharing)
-
-## Quickstart
-
-Let’s try Cognee in just a few lines of code. For detailed setup and configuration, see the [Cognee Docs](https://docs.cognee.ai/getting-started/installation#environment-configuration).
-
-### Prerequisites
-
-- Python 3.10 to 3.13
-
-### Step 1: Install Cognee
-
-You can install Cognee with **pip**, **poetry**, **uv**, or your preferred Python package manager.
-
-```bash
-uv pip install cognee
-```
-
-### Step 2: Configure the LLM
-```python
-import os
-os.environ["LLM_API_KEY"] = "YOUR OPENAI_API_KEY"
-```
-Alternatively, create a `.env` file using our [template](https://github.com/topoteretes/cognee/blob/main/.env.template).
-
-To integrate other LLM providers, see our [LLM Provider Documentation](https://docs.cognee.ai/setup-configuration/llm-providers).
-
-### Step 3: Run the Pipeline
-
-Cognee will take your documents, generate a knowledge graph from them and then query the graph based on combined relationships.
-
-Now, run a minimal pipeline:
+## Quick Start
 
 ```python
 import cognee
 import asyncio
-from pprint import pprint
-
 
 async def main():
-    # Add text to cognee
-    await cognee.add("Cognee turns documents into AI memory.")
+    # Feed it your data
+    await cognee.add("BTC RSI hit 92 at 3PM ET kill zone. Shorted 20x. Hit TP in 4 minutes.")
 
-    # Generate the knowledge graph
+    # Build the knowledge graph
     await cognee.cognify()
 
-    # Add memory algorithms to the graph
-    await cognee.memify()
+    # Query it later — it remembers everything
+    results = await cognee.search("What happens when RSI > 90 during kill zones?")
+    print(results)
 
-    # Query the knowledge graph
-    results = await cognee.search("What does Cognee do?")
-
-    # Display the results
-    for result in results:
-        pprint(result)
-
-
-if __name__ == '__main__':
-    asyncio.run(main())
-
+asyncio.run(main())
 ```
 
-As you can see, the output is generated from the document we previously stored in Cognee:
+## The Stack
+
+| Layer | Tool | Purpose |
+|-------|------|---------|
+| **AI Memory** | Cognee (this repo) | Knowledge graphs + vector search |
+| **LLM** | Claude / GPT-4o / Local (LM Studio) | Entity extraction + reasoning |
+| **Graph DB** | Kuzu (local) / Neo4j | Relationship storage |
+| **Vector DB** | LanceDB (local) | Semantic search |
+| **Hardware** | RTX 5090 + 192GB RAM | Local inference + ML training |
+
+## What It Supports
+
+- **30+ data sources** — PDFs, text, images (OCR), audio (transcription), URLs, code files
+- **13 search modes** — graph traversal, RAG, chain-of-thought, temporal, Cypher queries
+- **8 LLM providers** — OpenAI, Claude, Gemini, Ollama, Mistral, Bedrock, Groq, custom
+- **Multiple databases** — Kuzu, Neo4j, LanceDB, ChromaDB, PGVector, PostgreSQL
+- **Multi-tenant** — isolated knowledge bases per project/strategy
+- **MCP Server** — direct integration with Claude Code and other MCP clients
+- **Runs local** — Ollama + Kuzu + LanceDB = zero API costs on your own hardware
+
+## Installation
 
 ```bash
-  Cognee turns documents into AI memory.
+pip install cognee
 ```
 
-### Use the Cognee CLI
-
-As an alternative, you can get started with these essential commands:
-
+Set your LLM key:
 ```bash
-cognee-cli add "Cognee turns documents into AI memory."
-
-cognee-cli cognify
-
-cognee-cli search "What does Cognee do?"
-cognee-cli delete --all
-
+export LLM_API_KEY="your_key_here"
 ```
 
-To open the local UI, run:
+For local-only (no API costs):
 ```bash
-cognee-cli -ui
+export LLM_PROVIDER=ollama
+export LLM_MODEL=llama3.1:8b
+export LLM_ENDPOINT=http://localhost:11434/v1
 ```
 
-## Demos & Examples
+## Architecture
 
-See Cognee in action:
-
-### Persistent Agent Memory
-
-[Cognee Memory for LangGraph Agents](https://github.com/user-attachments/assets/e113b628-7212-4a2b-b288-0be39a93a1c3)
-
-### Simple GraphRAG
-
-[Watch Demo](https://github.com/user-attachments/assets/f2186b2e-305a-42b0-9c2d-9f4473f15df8)
-
-### Cognee with Ollama
-
-[Watch Demo](https://github.com/user-attachments/assets/39672858-f774-4136-b957-1e2de67b8981)
-
-
-## Community & Support
-
-### Contributing
-We welcome contributions from the community! Your input helps make Cognee better for everyone. See [`CONTRIBUTING.md`](CONTRIBUTING.md) to get started.
-
-### Code of Conduct
-
-We're committed to fostering an inclusive and respectful community. Read our [Code of Conduct](https://github.com/topoteretes/cognee/blob/main/CODE_OF_CONDUCT.md) for guidelines.
-
-## Research & Citation
-
-We recently published a research paper on optimizing knowledge graphs for LLM reasoning:
-
-```bibtex
-@misc{markovic2025optimizinginterfaceknowledgegraphs,
-      title={Optimizing the Interface Between Knowledge Graphs and LLMs for Complex Reasoning},
-      author={Vasilije Markovic and Lazar Obradovic and Laszlo Hajdu and Jovan Pavlovic},
-      year={2025},
-      eprint={2505.24478},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2505.24478},
-}
 ```
+Raw Data (market feeds, trade logs, research, news)
+    ↓
+ADD — Ingest & classify documents
+    ↓
+COGNIFY — Extract entities, build knowledge graph
+    ↓
+SEARCH — Query with 13 retrieval strategies
+    ↓
+MEMIFY — Enrich with rules and context
+    ↓
+Living Knowledge Graph (grows smarter every cycle)
+```
+
+## Currently Building
+
+- **V33X Autonomous Learner** — DQN + Transformer that trades 24/7 and learns from its own results
+- **V33X Signal Engine** — CoinGlass funding + RSI extremes + kill zone timing
+- **Whale Intelligence System** — Track smart money across chains in real-time
+- **BloFin Copy Trading** — Revenue from copiers seeing consistent green
+
+## Other V33X Projects
+
+| Repo | Description |
+|------|-------------|
+| [V33X-Autonomous-Learner](https://github.com/visioneth/V33X-Autonomous-Learner) | Self-learning trading AI (PyTorch + DQN) |
+| [V33X-RSI-Scanner](https://github.com/visioneth/V33X-RSI-Scanner) | Multi-exchange RSI extreme scanner |
+| [V33X-Pine-Scripts](https://github.com/visioneth/V33X-Pine-Scripts) | TradingView indicators |
+| [V33X-Whale-Shield](https://github.com/visioneth/V33X-Whale-Shield) | Whale movement tracker |
+| [crypto-kill-zones](https://github.com/visioneth/crypto-kill-zones) | Kill zone timing analysis |
+
+---
+
+<div align="center">
+
+**Built during a bear market. Building for the next bull.**
+
+[Follow @Vision33X](https://github.com/visioneth) | [BloFin Partner](https://partner.blofin.com/d/Vision33X)
+
+</div>
+
+---
+
+*Based on [Cognee](https://github.com/topoteretes/cognee) by Topoteretes — Apache 2.0 License. Original documentation and full feature set available in their repo.*
